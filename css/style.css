@@ -1,0 +1,287 @@
+/* Text */
+body{
+    font-family: Montserrat;
+}
+.navbar-brand{
+    font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin: 0px 0px 0px 50px;
+  color: #0C6170 !important;
+}
+
+h1{
+    font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bold !important;
+  color: #6e9290;
+}
+
+.lead{
+    font-family: Montserrat;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+button{
+background-color: #6e9290 !important;
+border-radius: 7vh !important;
+width: 17vh !important;
+}
+
+.nav-link{
+    color: #0C6170 !important;
+}
+
+.frase{
+    width: 73vh;
+    text-align: center;
+}
+
+
+/* Navigation bar */
+
+/*General*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    z-index: 10;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand img{
+    padding: 15px;
+    width: 65px;
+}
+
+.nav-item{
+    margin:0px 15px ;
+    color: #0C6170 !important;
+}
+
+
+
+/*Navigation dropdown menu*/
+.dropdown-menu{
+    background-color: white;
+    background-size: cover;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    color:#0C6170 !important;
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+
+.dropdown-menu {
+    left: -97px;
+  }
+
+  /*Navigation links*/
+  .customNav a{
+      color: white !important;
+  }
+
+  .navCTA{
+      font-size: 15px;
+  }
+
+
+    @media only screen and (max-width: 1200px)  { .hidden-xs {display: none} }
+
+    @media only screen and (min-width: 800px)  { .hidden-lg {display: none} }
+
+
+    @media only screen and (max-width: 800px)  { .resume {width: 200px !important;} }
+
+
+/*Jumbotron 2*/
+
+.row{
+    margin: 0 !important;
+}
+
+#Picture2{
+background-image: url("../images/IMG_4964.jpg");
+background-size: 110vh;
+background-repeat: no-repeat;
+border-radius: 50%;
+background-position: center;
+width: 70vh;
+height: 70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 7.5%;
+margin-left: 10%;
+
+}
+
+.card-body5{
+padding: 20px;
+margin: 15%;
+}
+
+#introducction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#papa{
+    background-image:url("../images/Parallax\ Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    stroke: transparent !important;
+    height:max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*Text*/
+
+.card-title2{
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: bold !important;
+    color: #6e9290;
+}
+
+.card-text2{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-text3{
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+
+
+/*UI/UX CASES STUDIES*/
+
+#frase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 900;
+  margin: 2%;
+}
+
+#Tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #24354a;
+}
+
+.card-group1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3.5%;
+}
+
+.card-body{
+display: flex;
+flex-direction: column;
+align-items:baseline;
+justify-content: space-around;
+}
+
+
+#id{
+    background-color: #ECDCC5;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*TOOLS*/
+
+.paddignrow{
+    padding-bottom: 5%;
+}
+
+.jumbotron1{
+    background-color: #ECDCC5;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#icons{
+    margin: 2%;
+    padding: auto;
+    padding-top: 2%;
+
+}
+
+.Tools{
+    text-align: center;
+}
+
+.col-md-1{
+    animation: bounce .7s infinite;
+}
+
+/*Designs*/
+
+.animations{
+    height: fit-content;
+}
+
+.card-deck{
+    margin: 3.5%;
+}
+
+/*Footer*/
+#footer{
+    margin: 2%;
+    font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.icon{
+    margin: 0.5%;
+}
+
